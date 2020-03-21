@@ -9,9 +9,10 @@
       .container {
         min-height: 100vh;
         display: grid;
-        grid-template-columns: 100px 100px 100px;
-        grid-template-rows: 200px 200px;
-        
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: flex-end;
+        align-items: flex-end;
       }
     </style>
   </head>
